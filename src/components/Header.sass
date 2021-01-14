@@ -12,6 +12,7 @@
 
     &__flags
         display: flex
+        margin-left: 10px
 
         &__flag
             height: 20px
@@ -41,3 +42,15 @@
 a
     color: #505050
     text-decoration: none
+
+@media (max-width: 800px)
+    .header
+        &__menubar
+            &__menu
+                img
+                    height: 30px
+                    margin-top: 10px
+                    filter: invert(0.6)
+
+                &:hover
+                    filter: invert(1)

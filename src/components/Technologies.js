@@ -6,7 +6,21 @@ export default function Technologies() {
     const skills = [100, 95, 95, 90, 90, 80, 90, 80, 70, 80, 70, 50, 30, 40, 50, 80, 60]
     const list = [...document.querySelectorAll('.fillBar')]
     list.map((div, index) => {
-      div.style.width = skills[index] + '%'
+      let i = 0
+        if (i === 0) {
+          i = 1;
+          let width = 1;
+          let id = setInterval(frame, 10);
+          function frame() {
+            if (width >= skills[index]) {
+              clearInterval(id);
+              i = 0;
+            } else {
+              width++
+              div.style.width = width + '%'
+            }
+          }
+        }
     })
   })
 

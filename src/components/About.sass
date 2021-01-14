@@ -12,7 +12,7 @@
             width: 20vw
             height: 20vw
             border-radius: 50%
-            border: 1px solid black
+            box-shadow: 0 0 8px #888888
             filter: brightness(70%)
 
         &__name
@@ -87,3 +87,24 @@
 
 span.fontcolor
     color: rgb(36,36,36)
+
+
+@media (max-width: 800px)
+    .about
+        &__intro
+            &__name
+                width: 80%
+                margin-left: 10%
+                font-size: 2em
+
+            &__profession
+                font-size: 1.2em
+
+        &__content
+            flex-direction: column
+
+            &__text
+                width: 100%
+
+            &__contact
+                width: 100%
