@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/newportfolio/static/css/main.4b62ab64.chunk.css",
+    "main.js": "/newportfolio/static/js/main.3928cdaa.chunk.js",
+    "main.js.map": "/newportfolio/static/js/main.3928cdaa.chunk.js.map",
+    "runtime-main.js": "/newportfolio/static/js/runtime-main.e2b20194.js",
+    "runtime-main.js.map": "/newportfolio/static/js/runtime-main.e2b20194.js.map",
+    "static/js/2.6b94977e.chunk.js": "/newportfolio/static/js/2.6b94977e.chunk.js",
+    "static/js/2.6b94977e.chunk.js.map": "/newportfolio/static/js/2.6b94977e.chunk.js.map",
+    "index.html": "/newportfolio/index.html",
+    "static/css/main.4b62ab64.chunk.css.map": "/newportfolio/static/css/main.4b62ab64.chunk.css.map",
+    "static/js/2.6b94977e.chunk.js.LICENSE.txt": "/newportfolio/static/js/2.6b94977e.chunk.js.LICENSE.txt",
+    "static/media/habit.d1204d7a.png": "/newportfolio/static/media/habit.d1204d7a.png",
+    "static/media/krzys.34e257f4.png": "/newportfolio/static/media/krzys.34e257f4.png",
+    "static/media/profilepic.70280525.png": "/newportfolio/static/media/profilepic.70280525.png",
+    "static/media/todo.3a09dc76.png": "/newportfolio/static/media/todo.3a09dc76.png",
+    "static/media/weather.2cd321ad.png": "/newportfolio/static/media/weather.2cd321ad.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2b20194.js",
+    "static/js/2.6b94977e.chunk.js",
+    "static/css/main.4b62ab64.chunk.css",
+    "static/js/main.3928cdaa.chunk.js"
+  ]
+}
