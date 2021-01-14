@@ -1,0 +1,89 @@
+.about
+    width: 100vw
+    margin-top: 50px
+    margin-bottom: 6vh
+
+    &__intro
+        font-family: 'Courier Prime', monospace
+        text-align: center
+        padding-top: 30px
+
+        &__pic
+            width: 20vw
+            height: 20vw
+            border-radius: 50%
+            border: 1px solid black
+            filter: brightness(70%)
+
+        &__name
+            font-size: 3em
+            font-weight: 600
+            color: rgb(170, 170,170)
+
+        &__profession
+            font-size: 1.5em
+            color: #505050
+            font-style: italic
+
+    &__content
+        box-sizing: border-box
+        width: 60vw
+        margin-left: 20vw
+        padding: 20px
+        display: flex
+        font-family: 'Courier Prime', monospace
+
+        &__text
+            width: 70%
+            padding: 10px
+
+            &__title
+                text-align: left
+                font-size: 24px
+                font-weight: 600
+                color: rgb(170, 170,170)
+                padding: 20px 0
+
+            &__description
+                font-size: 16px
+                color: rgb(200,200,200)
+
+        &__contact
+            width: 30%
+            padding: 10px
+
+            &__title
+                text-align: left
+                font-size: 24px
+                font-weight: 600
+                color: rgb(170, 170,170)
+                padding: 20px 0
+
+               
+            &__description
+                color: rgb(200,200,200)
+                display: flex
+                flex-direction: column
+
+                &__info
+                    display: flex
+                    align-items: center
+                    transition: .3s
+
+                    img
+                        width: 30px
+                        height: 30px
+                        padding: 5px
+                        margin-right: 10px
+                        filter: invert(0.8)
+
+                    &:hover
+                        cursor: pointer
+                        color: rgb(255,255,255)
+
+                        img
+                            filter: invert(1)
+
+
+span.fontcolor
+    color: rgb(36,36,36)

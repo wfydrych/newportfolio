@@ -1,0 +1,54 @@
+.projects
+    width: 100vw
+    margin-top: 50px
+    margin-bottom: 6vh
+    font-family: 'Courier Prime', monospace
+    color: rgb(170, 170,170)
+    font-size: 16px
+
+    &__title
+        text-align: center
+        padding-top: 30px
+        font-size: 3em
+        font-weight: 600
+        padding-bottom: 50px
+
+    &__container
+        width: 60vw
+        margin-left: 20vw
+        display: flex
+        flex-direction: column
+
+        &__project
+            display: flex
+            align-items: center
+            padding: 40px 20px
+            box-sizing: border-box
+            border-bottom: 1px solid #505050
+
+            &:last-child
+                border-bottom: none
+            
+            &__pic
+                width: 30vw
+                filter: brightness(50%)
+                transition: .3s
+
+                &:hover
+                    cursor: pointer
+
+            &__description
+                padding: 20px
+
+                span
+                    display: block
+                    font-weight: 600
+                    font-size: 20px
+                    padding-bottom: 5px
+
+            &:hover
+                color: rgb(200,200,200)
+
+            &:hover .projects__container__project__pic
+                filter: brightness(100%)
+                
