@@ -21,6 +21,10 @@ export default function Main() {
                     render = {text => <About></About>}>
                 </Route>
                 <Route 
+                    path='/newportfolio' 
+                    render = {text => <About></About>}>
+                </Route>
+                <Route 
                     path='/about' 
                     render = {text => <About></About>}>
                 </Route>
