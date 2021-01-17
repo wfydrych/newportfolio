@@ -1,5 +1,6 @@
 import './Technologies.sass'
 import React, {useEffect} from 'react'
+import Context from './Context'
 
 export default function Technologies() {
   useEffect( () => {
@@ -25,27 +26,31 @@ export default function Technologies() {
   })
 
   return (
-    <div className='technologies'>
-        <div className='technologies__title'>Technologies</div>
-        <div className='technologies__container'>
-            <span >HTML5<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >BEM<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >CSS3<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >Sass<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >Flexbox<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >CSS Grid<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >Bootstrap<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >JavaScript<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >jQuery<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >React<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >React Router<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >React Hooks<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >Node.js<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >Express<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >MongoDB<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >Git<div className='progressBar'><div className='fillBar'></div></div></span>
-            <span >Figma<div className='progressBar'><div className='fillBar'></div></div></span>
-        </div>
-    </div>
+    <Context.Consumer>
+    { (context) => (
+      <div className='technologies'>
+          <div className='technologies__title'>{context.menu[1]}</div>
+          <div className='technologies__container'>
+              <span >HTML5<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >BEM<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >CSS3<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >Sass<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >Flexbox<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >CSS Grid<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >Bootstrap<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >JavaScript<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >jQuery<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >React<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >React Router<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >React Hooks<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >Node.js<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >Express<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >MongoDB<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >Git<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >Figma<div className='progressBar'><div className='fillBar'></div></div></span>
+          </div>
+      </div>
+    )}
+    </Context.Consumer>
   )
 }
