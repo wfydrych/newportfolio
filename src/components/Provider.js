@@ -26,10 +26,10 @@ class Provider extends Component {
                                 menu: ['O mnie', 'Technologie', 'Projekty'],
                                 project: 'Moje projekty',
                                 contact: 'Kontakt',
-                                description: `Cześć! Jestem poczatkujacym programista front-end, zaczynajacym przygode z 
-                                programowaniem. Na tej stronie znajdziesz moje ostatnie projekty i technologie ktorych uzywam. 
-                                Kazdego dnia ucze sie czegos nowego i obecnie skupiam sie na back-endzie. Jesli widzisz we mnie 
-                                kandydata do Twojej firmy lub masz dla mnie jakies zlecenie, zapraszam do kontaktu.`,
+                                description: `Cześć! Jestem programistą front-end, zaczynającym przygodę z 
+                                programowaniem. Na tej stronie znajdziesz moje ostatnie projekty i technologie których używam. 
+                                Każdego dnia uczę się czegoś nowego i obecnie skupiam się na back-endzie. Jeśli widzisz we mnie 
+                                kandydata do Twojej firmy lub masz dla mnie jakieś zlecenie, zapraszam do kontaktu.`,
                             })
                         }
                         else if (lang === 'de') {

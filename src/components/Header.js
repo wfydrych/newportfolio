@@ -32,9 +32,9 @@ export default function Header() {
                     </>
                     ) : (
                     <>
-                      <NavLink to='/about'><div className='header__menubar__menu'>{context.menu[0]}</div></NavLink>
-                      <NavLink to='/technologies'><div className='header__menubar__menu'>{context.menu[1]}</div></NavLink>
-                      <NavLink to='/projects'><div className='header__menubar__menu'>{context.menu[2]}</div></NavLink>
+                      <NavLink to='/about'><div className='header__menubar__menu' id='about'><span className='btnHover'>{context.menu[0]}</span></div></NavLink>
+                      <NavLink to='/technologies'><div className='header__menubar__menu' id='technologies'><span className='btnHover'>{context.menu[1]}</span></div></NavLink>
+                      <NavLink to='/projects'><div className='header__menubar__menu' id='projects'><span className='btnHover'>{context.menu[2]}</span></div></NavLink>
                     </>
                   )
                 }

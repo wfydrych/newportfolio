@@ -2,6 +2,12 @@ import './Technologies.sass'
 import React, {useEffect} from 'react'
 import Context from './Context'
 
+const selectMenuColor = () => {
+  document.getElementById('about').style.color = '#dddddd'
+  document.getElementById('technologies').style.color = '#6d6d6d'
+  document.getElementById('projects').style.color = '#dddddd'
+}
+
 export default function Technologies() {
   useEffect( () => {
     const skills = [100, 95, 95, 90, 90, 80, 90, 80, 70, 80, 70, 50, 30, 40, 50, 80, 60]
@@ -23,6 +29,7 @@ export default function Technologies() {
           }
         }
     })
+    selectMenuColor()
   })
 
   return (

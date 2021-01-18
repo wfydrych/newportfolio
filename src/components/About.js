@@ -1,7 +1,7 @@
 import './About.sass'
 import React, {useEffect} from 'react'
 import Context from './Context'
-import profile from './img/profilepic.png'
+import profile from './img/profilepic.jpg'
 import email from './img/email.png'
 import facebook from './img/facebook.png'
 import linkedin from './img/linkedin.png'
@@ -18,9 +18,17 @@ const openLink = (e) => {
   else if (e.target.id === 'email') window.open('mailto:wfydrych@gmail.com')
 }
 
+const selectMenuColor = () => {
+  document.getElementById('about').style.color = '#6d6d6d'
+  document.getElementById('technologies').style.color = '#dddddd'
+  document.getElementById('projects').style.color = '#dddddd'
+}
+
 export default function About() {
   useEffect( () => {
     const blinkFunction = setInterval(classToggle,500)
+    selectMenuColor()
+    
     return () => {
       clearInterval(blinkFunction)
     }

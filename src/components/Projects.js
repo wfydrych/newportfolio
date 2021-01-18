@@ -1,13 +1,26 @@
 import './Projects.sass'
 import Context from './Context'
-import weather from './img/projects/weather.png'
-import habit from './img/projects/habit.png'
-import todo from './img/projects/todo.png'
-import krzys from './img/projects/krzys.png'
-import pavel from './img/projects/pavelmiguel.png'
-import carshine from './img/projects/carshine.png'
+import React, {useEffect} from 'react'
+import weather from './img/projects/weather.jpg'
+import habit from './img/projects/habit.jpg'
+import todo from './img/projects/todo.jpg'
+import krzys from './img/projects/krzys.jpg'
+import pavel from './img/projects/pavelmiguel.jpg'
+import carshine from './img/projects/carshine.jpg'
+
+const selectMenuColor = () => {
+  document.getElementById('about').style.color = '#dddddd'
+  document.getElementById('technologies').style.color = '#dddddd'
+  document.getElementById('projects').style.color = '#6d6d6d'
+}
 
 export default function Projects() {
+  useEffect( () => {
+    selectMenuColor()
+    
+    return () => {}
+  })
+
   return (
     <Context.Consumer>
     { (context) => (
@@ -31,7 +44,7 @@ export default function Projects() {
             <div className='projects__container__project'>
               <a target="_blank" href="https://guarded-fortress-34922.herokuapp.com/"><img alt='portfolio-kristoff' src={krzys} className='projects__container__project__pic' /></a>
               <div className='projects__container__project__description'>
-                <span>Portfolio</span>
+                <span>Portfolio Krzysztof Jakubiak</span>
                   (in progress)
               </div>
             </div>
