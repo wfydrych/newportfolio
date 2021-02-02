@@ -3,9 +3,11 @@ import React, {useEffect} from 'react'
 import Context from './Context'
 
 const selectMenuColor = () => {
-  document.getElementById('about').style.color = '#dddddd'
-  document.getElementById('technologies').style.color = '#6d6d6d'
-  document.getElementById('projects').style.color = '#dddddd'
+  if (window.innerWidth > 800) {
+    document.getElementById('about').style.color = '#dddddd'
+    document.getElementById('technologies').style.color = '#6d6d6d'
+    document.getElementById('projects').style.color = '#dddddd'
+  }
 }
 
 export default function Technologies() {

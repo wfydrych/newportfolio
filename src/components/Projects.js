@@ -9,9 +9,11 @@ import pavel from './img/projects/pavelmiguel.jpg'
 import carshine from './img/projects/carshine.jpg'
 
 const selectMenuColor = () => {
-  document.getElementById('about').style.color = '#dddddd'
-  document.getElementById('technologies').style.color = '#dddddd'
-  document.getElementById('projects').style.color = '#6d6d6d'
+  if (window.innerWidth > 800) {
+    document.getElementById('about').style.color = '#dddddd'
+    document.getElementById('technologies').style.color = '#dddddd'
+    document.getElementById('projects').style.color = '#6d6d6d'
+  }
 }
 
 export default function Projects() {

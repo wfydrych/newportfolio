@@ -19,9 +19,11 @@ const openLink = (e) => {
 }
 
 const selectMenuColor = () => {
-  document.getElementById('about').style.color = '#6d6d6d'
-  document.getElementById('technologies').style.color = '#dddddd'
-  document.getElementById('projects').style.color = '#dddddd'
+  if (window.innerWidth > 800) {
+    document.getElementById('about').style.color = '#6d6d6d'
+    document.getElementById('technologies').style.color = '#dddddd'
+    document.getElementById('projects').style.color = '#dddddd'
+  }
 }
 
 export default function About() {
