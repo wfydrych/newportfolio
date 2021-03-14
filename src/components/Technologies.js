@@ -12,7 +12,7 @@ const selectMenuColor = () => {
 
 export default function Technologies() {
   useEffect( () => {
-    const skills = [100, 95, 95, 90, 90, 80, 90, 80, 70, 80, 70, 50, 30, 40, 50, 80, 60]
+    const skills = [100, 95, 95, 90, 90, 80, 90, 80, 70, 30, 25, 80, 70, 50, 30, 40, 50, 80, 60]
     const list = [...document.querySelectorAll('.fillBar')]
     list.map((div, index) => {
       let i = 0
@@ -46,9 +46,11 @@ export default function Technologies() {
               <span >Sass<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >Flexbox<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >CSS Grid<div className='progressBar'><div className='fillBar'></div></div></span>
-              <span >Bootstrap<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >Bootstrap 4<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >JavaScript<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >jQuery<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >GSAP<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >Canvas<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >React<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >React Router<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >React Hooks<div className='progressBar'><div className='fillBar'></div></div></span>

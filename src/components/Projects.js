@@ -37,6 +37,13 @@ export default function Projects() {
               </div>
             </div>
             <div className='projects__container__project'>
+            <a target="_blank" href="https://habit-tracker-mobile.herokuapp.com/"><img alt='HabitTracker' src={habit} className='projects__container__project__pic' /></a>
+              <div className='projects__container__project__description'>
+                <span>Habit Tracker</span>
+                  (in progress)
+              </div>
+            </div>
+            <div className='projects__container__project'>
               <a target="_blank" href="https://wfydrych.github.io/pavelmiguel/"><img alt='portfolio-pavel-miguel' src={pavel} className='projects__container__project__pic' /></a>
               <div className='projects__container__project__description'>
                 <span>Portfolio Pavel Miguel</span>
@@ -47,13 +54,6 @@ export default function Projects() {
               <a target="_blank" href="https://guarded-fortress-34922.herokuapp.com/"><img alt='portfolio-kristoff' src={krzys} className='projects__container__project__pic' /></a>
               <div className='projects__container__project__description'>
                 <span>Portfolio Krzysztof Jakubiak</span>
-                  (in progress)
-              </div>
-            </div>
-            <div className='projects__container__project'>
-              <img alt='HabitTracker' src={habit} className='projects__container__project__pic' />
-              <div className='projects__container__project__description'>
-                <span>Habit Tracker</span>
                   (in progress)
               </div>
             </div>
