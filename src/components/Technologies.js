@@ -12,7 +12,7 @@ const selectMenuColor = () => {
 
 export default function Technologies() {
   useEffect( () => {
-    const skills = [100, 95, 95, 90, 90, 80, 90, 80, 70, 30, 25, 80, 70, 50, 30, 40, 50, 80, 60]
+    const skills = [100, 95, 95, 90, 90, 80, 90, 80, 80, 70, 30, 25, 80, 70, 50, 50, 30, 40, 50, 75, 80, 60]
     const list = [...document.querySelectorAll('.fillBar')]
     list.map((div, index) => {
       let i = 0
@@ -48,15 +48,18 @@ export default function Technologies() {
               <span >CSS Grid<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >Bootstrap 4<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >JavaScript<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >TypeScript<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >jQuery<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >GSAP<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >Canvas<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >React<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >React Router<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >React Hooks<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >Redux<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >Node.js<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >Express<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >MongoDB<div className='progressBar'><div className='fillBar'></div></div></span>
+              <span >Cypress<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >Git<div className='progressBar'><div className='fillBar'></div></div></span>
               <span >Figma<div className='progressBar'><div className='fillBar'></div></div></span>
           </div>

@@ -37,6 +37,12 @@ export default function Projects() {
               </div>
             </div>
             <div className='projects__container__project'>
+              <a target="_blank" href="http://appriority.online/"><img alt='APPriority' src={todo} className='projects__container__project__pic' /></a>
+              <div className='projects__container__project__description'>
+                <span>APPriority (mobile app)</span>
+              </div>
+            </div>
+            <div className='projects__container__project'>
             <a target="_blank" href="https://habit-tracker-mobile.herokuapp.com/"><img alt='HabitTracker' src={habit} className='projects__container__project__pic' /></a>
               <div className='projects__container__project__description'>
                 <span>Habit Tracker</span>
@@ -55,12 +61,6 @@ export default function Projects() {
               <div className='projects__container__project__description'>
                 <span>Portfolio Krzysztof Jakubiak</span>
                   (in progress)
-              </div>
-            </div>
-            <div className='projects__container__project'>
-              <a target="_blank" href="https://to-do-list-mobile.herokuapp.com/"><img alt='ToDoApp' src={todo} className='projects__container__project__pic' /></a>
-              <div className='projects__container__project__description'>
-                <span>To Do App</span>
               </div>
             </div>
             <div className='projects__container__project'>
