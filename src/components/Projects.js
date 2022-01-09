@@ -30,40 +30,40 @@ export default function Projects() {
           <div className='projects__title'>{context.project}</div>
           <div className='projects__container'>
             <div className='projects__container__project'>
-              <a target="_blank" href="https://shinefactorych.com"><img alt='shine-factory' src={carshine} className='projects__container__project__pic' /></a>
+              <a target="_blank" rel="noreferrer" href="https://shinefactorych.com"><img alt='shine-factory' src={carshine} className='projects__container__project__pic' /></a>
               <div className='projects__container__project__description'>
                 <span>ShineFactory</span>
               </div>
             </div>
             <div className='projects__container__project'>
-              <a target="_blank" href="http://appriority.online/"><img alt='APPriority' src={todo} className='projects__container__project__pic' /></a>
+              <a target="_blank" rel="noreferrer" href="http://appriority.online/"><img alt='APPriority' src={todo} className='projects__container__project__pic' /></a>
               <div className='projects__container__project__description'>
                 <span>APPriority (mobile app)</span>
               </div>
             </div>
             <div className='projects__container__project'>
-            <a target="_blank" href="https://habit-tracker-mobile.herokuapp.com/"><img alt='HabitTracker' src={habit} className='projects__container__project__pic' /></a>
+            <a target="_blank" rel="noreferrer" href="https://habit-tracker-mobile.herokuapp.com/"><img alt='HabitTracker' src={habit} className='projects__container__project__pic' /></a>
               <div className='projects__container__project__description'>
                 <span>Habit Tracker</span>
                   (in progress)
               </div>
             </div>
             <div className='projects__container__project'>
-              <a target="_blank" href="https://wfydrych.github.io/pavelmiguel/"><img alt='portfolio-pavel-miguel' src={pavel} className='projects__container__project__pic' /></a>
+              <a target="_blank" rel="noreferrer" href="https://wfydrych.github.io/pavelmiguel/"><img alt='portfolio-pavel-miguel' src={pavel} className='projects__container__project__pic' /></a>
               <div className='projects__container__project__description'>
                 <span>Portfolio Pavel Miguel</span>
                   (in progress)
               </div>
             </div>
             <div className='projects__container__project'>
-              <a target="_blank" href="https://guarded-fortress-34922.herokuapp.com/"><img alt='portfolio-kristoff' src={krzys} className='projects__container__project__pic' /></a>
+              <a target="_blank" rel="noreferrer" href="https://guarded-fortress-34922.herokuapp.com/"><img alt='portfolio-kristoff' src={krzys} className='projects__container__project__pic' /></a>
               <div className='projects__container__project__description'>
                 <span>Portfolio Krzysztof Jakubiak</span>
                   (in progress)
               </div>
             </div>
             <div className='projects__container__project'>
-              <a target="_blank" href="https://wfydrych.github.io/WeatherApp/"><img alt='weather-app' src={weather} className='projects__container__project__pic' /></a>
+              <a target="_blank" rel="noreferrer" href="https://wfydrych.github.io/WeatherApp/"><img alt='weather-app' src={weather} className='projects__container__project__pic' /></a>
               <div className='projects__container__project__description'>
                 <span>Weather App</span>
                 
