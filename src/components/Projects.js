@@ -30,10 +30,9 @@ export default function Projects() {
           <div className='projects__title'>{context.project}</div>
           <div className='projects__container'>
             <div className='projects__container__project'>
-              <a target="_blank" href="https://wfydrych.github.io/carshine/"><img alt='car-shine-factory' src={carshine} className='projects__container__project__pic' /></a>
+              <a target="_blank" href="https://shinefactorych.com"><img alt='shine-factory' src={carshine} className='projects__container__project__pic' /></a>
               <div className='projects__container__project__description'>
-                <span>Car Shine Factory</span>
-                  (in progress)
+                <span>ShineFactory</span>
               </div>
             </div>
             <div className='projects__container__project'>
